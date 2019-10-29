@@ -41,7 +41,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var midTrackLarge: Bool?
     var rightTrackLarge: Bool?
     
-    var gameAudioPlayer = AVAudioPlayer()
+    var gameAudioPlayer: AVAudioPlayer!
     
     var currentState = gameState.preGame
     
@@ -72,6 +72,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var count = 0
     
     override func didMove(to view: SKView) {
+        //scaleMode = SKSceneScaleMode.aspectFit
         //print(frame.size.height)
         //print(frame.maxY)
         //print(frame.minY)

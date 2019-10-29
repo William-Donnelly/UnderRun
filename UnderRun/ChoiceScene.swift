@@ -13,7 +13,7 @@ import AVFoundation
 class ChoiceScene: SKScene {
     
     static var boss: String?
-    var gameAudioPlayer = AVAudioPlayer()
+    var gameAudioPlayer: AVAudioPlayer!
     
     override func didMove(to view: SKView) {
         if(StartScene.musicEnabled == true){

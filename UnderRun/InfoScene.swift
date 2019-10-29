@@ -11,7 +11,7 @@ import SpriteKit
 import AVFoundation
 
 class InfoScene: SKScene{
-    var gameAudioPlayer = AVAudioPlayer()
+    var gameAudioPlayer: AVAudioPlayer!
     let mainMenuReturn = SKLabelNode(fontNamed: "Papyrus")
     
     override func didMove(to view: SKView) {

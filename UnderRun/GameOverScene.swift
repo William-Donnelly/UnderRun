@@ -11,7 +11,7 @@ import SpriteKit
 import AVFoundation
 
 class GameOverScene: SKScene{
-    var gameAudioPlayer = AVAudioPlayer()
+    var gameAudioPlayer: AVAudioPlayer!
     
     let restartLabel = SKLabelNode(fontNamed: "ComicNeueSansID")
     let mainMenuLabel = SKLabelNode(fontNamed: "ComicNeueSansID")

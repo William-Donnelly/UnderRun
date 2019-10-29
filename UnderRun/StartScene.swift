@@ -13,8 +13,8 @@ import AVFoundation
 class StartScene: SKScene {
     static var musicEnabled: Bool?
     static var interval: Double?
-    var gameAudioPlayer = AVAudioPlayer()
-    var memeAudioPlayer = AVAudioPlayer()
+    var gameAudioPlayer: AVAudioPlayer!
+    var memeAudioPlayer: AVAudioPlayer!
     
     let musicOn = SKSpriteNode(imageNamed: "Music On")
     let musicOff = SKSpriteNode(imageNamed: "Music Off")
