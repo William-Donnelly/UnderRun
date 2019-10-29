@@ -72,7 +72,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var count = 0
     
     override func didMove(to view: SKView) {
-        //scaleMode = SKSceneScaleMode.aspectFit
+        //scaleMode = SKSceneScaleMode.aspectFit 
         //print(frame.size.height)
         //print(frame.maxY)
         //print(frame.minY)

@@ -3,7 +3,7 @@
 //  SemesterTwoFinalApp
 //
 //  Created by The Real Kaiser on 5/22/18.
-//  Copyright © 2018 William Donnelly. All rights reserved.
+//  Copyright © 2018 William Donnelly. All rights reserved. 
 //
 
 import Foundation
